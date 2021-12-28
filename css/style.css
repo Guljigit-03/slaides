@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+#header{
+    margin-top: 200px;
+}
+.slick-arrow{
+    border: none;
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+}
+.slick-prev{
+   position: absolute;
+    z-index: 2;
+    margin-top: 75px;
+    margin-left: -50px;
+    background: url("../img/Vector.svg1.svg") no-repeat center;
+}
+.slick-next{
+    position: absolute;
+    z-index: 2;
+    margin-top: -125px;
+    right: 0;
+    margin-right: -50px;
+    background: url("../img/Vector.svg2.svg") no-repeat center;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    list-style: none;
+}
+.slick-dots li button{
+    border: none;
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 9px;
+    margin: 0 10px;
+    transition: .2s;
+}
+.slick-dots li button:hover{
+    background: green;
+}
+.slick-dots li button:focus{
+    background: orange;
+}
+
